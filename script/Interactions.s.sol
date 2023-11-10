@@ -32,7 +32,7 @@ contract CreateSubscription is Script {
 }
 
 contract FundSubscription is Script {
-    uint96 public constant FUND_AMOUNT = 3 ether;
+    uint96 public constant FUND_AMOUNT = 6 ether;
 
     function fundSubscription(address vrfCoordinator, uint64 subscriptionId, address link, uint256 deployerKey) public {
         console.log("Funding subscription: ", subscriptionId);

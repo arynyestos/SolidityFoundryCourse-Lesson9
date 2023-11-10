@@ -1,0 +1,37 @@
+{
+  "transactions": [
+    {
+      "hash": "0xe12a30ba4ac0ab6fe5a090088fb984e6d939460c2690be1203272d2efeb2ffb2",
+      "transactionType": "CALL",
+      "contractName": "LessonNine",
+      "contractAddress": "0x33e1fD270599188BB1489a169dF1f0be08b83509",
+      "function": "solveChallenge(uint256,string)",
+      "arguments": [
+        "88008",
+        "@ynyesto"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x31e0facea072ee621f22971df5bae3a1317e41a4",
+        "to": "0x33e1fd270599188bb1489a169df1f0be08b83509",
+        "gas": "0x2d3f7",
+        "value": "0x0",
+        "data": "0x29a30a7000000000000000000000000000000000000000000000000000000000000157c80000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000840796e796573746f000000000000000000000000000000000000000000000000",
+        "nonce": "0x102",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xe12a30ba4ac0ab6fe5a090088fb984e6d939460c2690be1203272d2efeb2ffb2"
+  ],
+  "returns": {},
+  "timestamp": 1699457111,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "5b3a28c"
+}

@@ -40,8 +40,9 @@ contract ChallengeTest is Test {
     
     function testSolveChallenge() public {
         // Arrange
-        vm.prank(PLAYER);
-        uint256 ourGuess = uint256(keccak256(abi.encodePacked(PLAYER, block.prevrandao, block.timestamp))) % 100000;
+        // vm.prank(PLAYER);
+        // uint256 ourGuess = uint256(keccak256(abi.encodePacked(PLAYER, block.prevrandao, block.timestamp))) % 100000;
+        uint256 ourGuess = uint256(keccak256(abi.encodePacked(address(this), block.prevrandao, block.timestamp))) % 100000;
 
         // Act 
         vm.recordLogs();
